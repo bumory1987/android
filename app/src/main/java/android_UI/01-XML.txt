@@ -1,0 +1,42 @@
+<1> XML
+GENERAL PURPOSE
+- 범용적인 목적을 가지고 있는 언어
+- Kotlin, Python, Java, C, C++, Swift
+
+DOMAIN SPECIFIC
+- 도메인 특화 언어 -> 특수한 목적을 달성하기 위한 언어
+- 간단한 문법
+- XML
+
+XML(eXtensible Markup Language)
+- 안드로이드에서 UI를 그리기 위한 언어
+- Markup Language
+    - 태그로 마크를 하여 작성
+    - 태그 -> 범위를 정해
+    - eXtensible -> 태그안에 태그를 추가 가능
+
+
+-태그
+    - <태그> </태그>
+
+
+
+<2> Pixel
+ - 일반적인 단위
+ - 픽셀이 많으면 상대적으로 크기가 달리질 수 있다
+단위
+ Dp(Density-Independent Pixel)
+ - 화면의 크기가 달라도 동일한 비율로 보여주기 위해서 안드로이드에서 정한 단위
+ - 크기가 일정하다
+
+
+Sp(Scale-Independent Pixel)
+ - 시스템 설정에 영향을 받는 단위
+
+
+DPI(Dot Per inch)
+ - 100dp -> 1인치당 픽셀이 100개 들어 있음
+
+<3>뷰컴포넌트
+ - 위젯(Widget), 뷰클래스(View Class), 컴포넌트(Component), 레이아웃
+
