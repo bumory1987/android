@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/nameMan"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:background="@color/black"></TextView>
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:layout_toLeftOf="@id/nameMan"
+        android:background="@color/purple_500"></TextView>
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_toRightOf="@id/nameMan"
+        android:layout_centerInParent="true"
+        android:background="@color/purple_500"
+        >
+    </TextView>
+
+
+    <TextView
+        android:id="@+id/nameManTwo"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_above="@id/nameMan"
+        android:layout_centerInParent="true"
+        android:background="@color/purple_700"></TextView>
+
+
+    <TextView
+        android:id="@+id/nameManThree"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/nameMan"
+        android:layout_centerInParent="true"
+        android:background="@color/purple_700"></TextView>
+
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_toLeftOf="@id/nameManTwo"
+        android:layout_alignBaseline="@id/nameManTwo"
+        android:background="@color/purple_200"></TextView>
+
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_toRightOf="@id/nameManTwo"
+        android:layout_alignBaseline="@id/nameManTwo"
+        android:background="@color/purple_200"></TextView>
+
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_toRightOf="@id/nameManThree"
+        android:layout_alignBaseline="@id/nameManThree"
+        android:background="@color/purple_200"></TextView>
+
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_toLeftOf="@id/nameManThree"
+        android:layout_alignBaseline="@id/nameManThree"
+        android:background="@color/purple_200"></TextView>
+
+
+
+</RelativeLayout>
