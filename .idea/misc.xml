@@ -7,7 +7,12 @@
         <entry key="app/src/main/res/drawable/drawableone.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/drawableshape.xml" value="0.11" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_calculator_man.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_homework_one.xml" value="0.19574468085106383" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.2984375" />
+        <entry key="app/src/main/res/layout/activity_one.xml" value="0.21822916666666667" />
+        <entry key="app/src/main/res/layout/activity_test.xml" value="0.4036458333333333" />
+        <entry key="app/src/main/res/layout/activity_view_control_one.xml" value="0.20416666666666666" />
         <entry key="app/src/main/res/layout/circleposition.xml" value="0.38813405797101447" />
         <entry key="app/src/main/res/layout/constraint_layout_test.xml" value="0.38813405797101447" />
         <entry key="app/src/main/res/layout/contraintlay.xml" value="0.15274463007159905" />

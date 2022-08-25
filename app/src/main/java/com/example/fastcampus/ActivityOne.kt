@@ -4,18 +4,18 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 
-class MainActivity : AppCompatActivity() {
+class ActivityOne : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.drawableman)
+        setContentView(R.layout.activity_one)
         Log.d("lifeCycle", "onCreate")
+
     }
 
     override fun onStart() {
         Log.d("lifeCycle", "onStart")
         super.onStart()
     }
-
 
     override fun onResume() {
         Log.d("lifeCycle", "onResume")
@@ -41,6 +41,5 @@ class MainActivity : AppCompatActivity() {
         Log.d("lifeCycle", "onRestart")
         super.onRestart()
     }
-
 
 }

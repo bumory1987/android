@@ -14,11 +14,27 @@
         android:theme="@style/Theme.Fastcampus"
         tools:targetApi="31">
         <activity
+            android:name=".CalculatorMan"
+            android:exported="false" />
+        <activity
+            android:name=".ViewControlOne"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityOne"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
-            android:exported="true" >
+            android:exported="false" />
+        <activity
+            android:name=".TestActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HomeworkOne"
+            android:exported="true">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
-                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
     </application>

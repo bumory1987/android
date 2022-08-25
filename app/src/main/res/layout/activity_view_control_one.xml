@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ViewControlOne">
+
+    <TextView
+        android:id="@+id/textViewOneT"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@color/teal_700"
+        android:text="안녕하세요"
+        >
+
+
+    </TextView>
+
+    <Button
+        android:id="@+id/buttonOneT"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="button"></Button>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

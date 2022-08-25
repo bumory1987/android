@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HomeworkOne">
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:id="@+id/textOneT"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:background="@color/design_default_color_error"
+            android:text="0"
+            >
+
+        </TextView>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:id="@+id/buttonOneT"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="1"
+            ></Button>
+
+        <Button
+            android:id="@+id/buttonTwoT"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="2"
+            ></Button>
+
+        <Button
+            android:id="@+id/buttonThreeT"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="3"
+            ></Button>
+
+
+        <Button
+            android:id="@+id/buttonPlusT"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="+"
+            ></Button>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/buttonResultT"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="="
+            >
+        </Button>
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
